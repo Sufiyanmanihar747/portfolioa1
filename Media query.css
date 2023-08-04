@@ -1,0 +1,78 @@
+@media screen and (max-width:813px) {
+    .educations {
+        flex-direction: column;
+    }
+
+    .edu-box {
+        width: auto;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .content a {
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:794px) {
+    ul {
+        gap: 2vw;
+    }
+}
+
+@media screen and (max-width:731px) {
+    .contact {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:610px) {
+
+    .intro {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:552px) {
+    .mobile-navbar-btn {
+        display: block;
+        position: absolute;
+        left: 0;
+        margin: 0px 25px;
+    }
+
+    ul {
+        background: linear-gradient(90deg, blueviolet, red);
+        width: 50%;
+        height: 100vh;
+        position: absolute;
+        top: -65px;
+        left: 0;
+        flex-direction: column;
+        gap: 54px;
+        transform: translateX(-100%);
+        transition: all .5s linear;
+    }
+
+    .text {
+        margin: 0px 74px;
+        margin-top: 20px;
+    }
+
+    .active {
+        transform: translateX(0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+}
+
+@media screen and (max-width:408px) {
+    .second-image {
+        height: 371px;
+    }
+}
